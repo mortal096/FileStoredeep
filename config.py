@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "10053188"))
 API_HASH = os.environ.get("API_HASH", "74689cc3a42a7afc507453c94a0cfeb9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001995978690"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001240395351"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "DeepSatasiya")
@@ -36,7 +36,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001225188740"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
